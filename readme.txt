@@ -3,4 +3,6 @@ Initial start:
 Master
   |_ develop
 
-local changes
+local changes are comitted to develop branch
+after a succesfull release the changes are merged with main
+
