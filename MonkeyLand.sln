@@ -22,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "qtree.core.consoleapp", "qt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api", "qtree.Asp.Net.WebApp\qtree.Asp.Net.WebApp.api.csproj", "{D0C1A69B-1D98-41FE-AF80-56F28EC294E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.Tests", "qtree.Asp.Net.WebApp.Tests\qtree.Asp.Net.WebApp.Tests.csproj", "{ED851CB1-FE61-4CED-B603-2C7570ECBD8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api.Tests", "qtree.Asp.Net.WebApp.Tests\qtree.Asp.Net.WebApp.api.Tests.csproj", "{ED851CB1-FE61-4CED-B603-2C7570ECBD8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
