@@ -2,7 +2,7 @@
 
 namespace qtree.core.lib
 {
-    public class HttpResponse
+    public class HttpApiResponse
     {
     }
 }
