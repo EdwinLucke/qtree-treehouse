@@ -6,7 +6,7 @@ namespace qtree.core.consoleapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Hello World! {qtree.standard.lib.TechnologyTypes.Core}");
         }
     }
 }

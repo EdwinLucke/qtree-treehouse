@@ -6,7 +6,7 @@ namespace qtree.Asp.Net.WebApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = $"Home Page - {qtree.standard.lib.TechnologyTypes.Net}";
            
             return View();
         }
