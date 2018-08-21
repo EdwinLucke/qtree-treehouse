@@ -1,6 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using qtree.standard.lib;
 
+/// <summary>
+/// Unittesting of a simple ChimpTag game.
+/// </summary>
 namespace qtree.core.mstest.tests
 {
     [TestClass]

@@ -13,13 +13,13 @@ namespace qtree.Asp.Net.WebApp.Tests.Controllers
         {
             // Arrange
             HomeController controller = new HomeController();
-
+            
             // Act
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual("Home Page", result.ViewBag.Title);
+            Assert.AreEqual($"Home Page - Net", result.ViewBag.Title);
         }
     }
 }

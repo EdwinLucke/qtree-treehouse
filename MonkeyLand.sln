@@ -24,7 +24,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api.Tests", "qtree.Asp.Net.WebApp.Tests\qtree.Asp.Net.WebApp.api.Tests.csproj", "{ED851CB1-FE61-4CED-B603-2C7570ECBD8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.standard.lib", "qtree.standard.lib\qtree.standard.lib.csproj", "{269E2E59-20D4-404A-A039-6E12EE4772DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "qtree.standard.lib", "qtree.standard.lib\qtree.standard.lib.csproj", "{269E2E59-20D4-404A-A039-6E12EE4772DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +71,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2A5D51FA-CC4C-4030-8B90-E0699CE9021E} = {F81DB274-E54E-4134-92BE-EAFA68DB25E4}
 		{210B5152-BA47-4E2B-870F-ABDF61EFFEEA} = {F81DB274-E54E-4134-92BE-EAFA68DB25E4}
+		{ED851CB1-FE61-4CED-B603-2C7570ECBD8B} = {F81DB274-E54E-4134-92BE-EAFA68DB25E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65F5E037-7467-432F-AA63-BD0713B0AE47}
