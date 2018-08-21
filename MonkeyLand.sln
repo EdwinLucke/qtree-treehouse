@@ -24,8 +24,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.Asp.Net.WebApp.api.Tests", "qtree.Asp.Net.WebApp.Tests\qtree.Asp.Net.WebApp.api.Tests.csproj", "{ED851CB1-FE61-4CED-B603-2C7570ECBD8B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{A160F0CE-113B-469C-917B-ED954784DED2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.standard.lib", "qtree.standard.lib\qtree.standard.lib.csproj", "{269E2E59-20D4-404A-A039-6E12EE4772DF}"
 EndProject
 Global
