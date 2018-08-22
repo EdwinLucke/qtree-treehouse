@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using qtree.standard.lib;
+using qtree.standard.lib.v01;
 
 /// <summary>
 /// Unittesting of a simple ChimpTag game.
@@ -13,8 +14,8 @@ namespace qtree.core.mstest.tests
         public void ChimpTag_Molly_Tag_Charlie()
         {
             //Arrange
-            var ChimpCharlie = new Chimp(4) {Name = "Charlie" };
-            var ChimpMolly = new Chimp(5) { Name = "Molly" };
+            var ChimpCharlie = new Chimp(4) {Name = "Charlie Ms" };
+            var ChimpMolly = new Chimp(5) { Name = "Ms. Molly" };
             //Act
             ChimpMolly.PlayWith(ChimpCharlie);
             //Assert

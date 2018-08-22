@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace qtree.standard.lib
+namespace qtree.standard.lib.v01
 {
     /// <summary>
     /// Simple chimp class in order to test the chimp chasing game between chimps.
@@ -24,7 +24,6 @@ namespace qtree.standard.lib
         {
             Energy = energyLevel;
         }
-
 
         public bool IsDodging()
         {
@@ -50,7 +49,6 @@ namespace qtree.standard.lib
             PlayMate.PlayMate = this;
             while (HasEnergy())
             {
-                
                 //both chimps try to move when the playmate is nit yet tagged
                 if (!PlayMate.IsTagged() && PlayMate.HasEnergy() && HasEnergy())
                 {
